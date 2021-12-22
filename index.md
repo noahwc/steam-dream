@@ -11,10 +11,10 @@ page_sections:
     link_text: Steam dream
   - link: "/blog"
     link_text: Blog
-  - link: "/about"
-    link_text: About
   - link: "/gallery"
     link_text: Gallery
+  - link: "/about"
+    link_text: About
   cta:
     url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
     button_text: Import
