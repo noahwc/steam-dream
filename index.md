@@ -23,8 +23,8 @@ page_sections:
   slug: features
   headline: Steam Dream
   content: Steam dream is a handmade steampunk-inspired pinball machine. With numerous
-    unique elements and gameplay features steam dream exists on the cutting edge of
-    pinball design.
+    unique elements and gameplay features, steam dream exists on the cutting edge
+    of pinball design.
   cta:
     enabled: true
     url: "/blog"
