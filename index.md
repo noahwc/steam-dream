@@ -11,8 +11,8 @@ page_sections:
     link_text: Steam dream
   - link: "/blog"
     link_text: Blog
-  - link: "#customize"
-    link_text: Customize
+  - link: "/about"
+    link_text: About
   - link: "#responsive"
     link_text: Responsive
   - link: "#blocks"
