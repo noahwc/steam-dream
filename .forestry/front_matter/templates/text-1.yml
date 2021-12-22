@@ -18,4 +18,5 @@ fields:
     schema:
       format: html-blocks
 pages:
+- about-1.md
 - about.md
