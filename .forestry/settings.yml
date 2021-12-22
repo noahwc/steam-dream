@@ -7,7 +7,6 @@ sections:
 - type: jekyll-pages
   label: Jekyll Pages
   create: all
-  match: "**/*"
 - type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
