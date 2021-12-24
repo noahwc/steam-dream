@@ -33,6 +33,7 @@ fields:
   - 4-column-footer
 pages:
 - "./about-1.md"
+- "./about-2.md"
 - "./about.md"
 - index.md
 - index.md
