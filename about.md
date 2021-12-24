@@ -3,11 +3,6 @@ layout: blocks
 title: About
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
-- template: ''
-  block: ''
-  logo: ''
-  navigation: ''
-  cta: ''
 - template: navigation-header
   block: header-1
   navigation:
