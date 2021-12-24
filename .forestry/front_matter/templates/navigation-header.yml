@@ -22,5 +22,3 @@ fields:
     label: Link text
   config:
     labelField: link_text
-pages:
-- about-2.md
