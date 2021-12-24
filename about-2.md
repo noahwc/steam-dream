@@ -67,6 +67,12 @@ block: header-1
 navigation:
 - link: "/"
   link_text: Steam Dream
+- link: "/blog"
+  link_text: Blog
+- link: "/gallery"
+  link_text: Gallery
+- link: "/about"
+  link_text: About
 logo: ''
 
 ---
