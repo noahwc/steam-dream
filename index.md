@@ -8,6 +8,10 @@ page_sections:
   navigation:
   - link: "/"
     link_text: Steam Dream
+  - link: "/blog"
+    link_text: Blog
+  - link: "/about"
+    link_text: About
   logo: ''
 - template: hero-banner-w-image
   block: hero-2
