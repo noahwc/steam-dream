@@ -7,12 +7,12 @@ page_sections:
   block: header-1
   logo: ''
   navigation:
-  - link: "/about"
-    link_text: About
-  - link: "/blog"
-    link_text: Blog
   - link: "/"
     link_text: Steam Dream
+  - link: "/blog"
+    link_text: Blog
+  - link: "/about"
+    link_text: About
 - template: 1-column-text
   block: one-column-1
   headline: About
