@@ -7,6 +7,8 @@ page_sections:
   block: header-1
   logo: ''
   navigation:
+  - link: "/gallery"
+    link_text: Gallery
   - link: "/"
     link_text: Steam Dream
   - link: "/blog"
