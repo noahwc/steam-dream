@@ -6,6 +6,8 @@ page_sections:
 - template: navigation-header
   block: header-1
   navigation:
+  - link: "/gallery"
+    link_text: Gallery
   - link: "/"
     link_text: Steam Dream
   - link: "/blog"
