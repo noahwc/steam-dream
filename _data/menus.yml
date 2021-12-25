@@ -1,12 +1,15 @@
 ---
 main:
-- weight: 4
+- identifier: about
+  weight: 4
   url: "/about"
   title: About
-- weight: 3
+- identifier: blog
+  weight: 3
   url: "/blog"
   title: Blog
-- weight: 2
+- identifier: gallery
+  weight: 2
   url: "/gallery"
   title: Gallery
 - identifier: home
