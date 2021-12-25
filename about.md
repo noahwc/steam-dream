@@ -8,11 +8,11 @@ page_sections:
   navigation:
   - link: "/"
     link_text: Steam Dream
-  - link: "/blog"
+  - link: "/blog.html"
     link_text: Blog
-  - link: "/gallery"
+  - link: "/gallery.html"
     link_text: Gallery
-  - link: "/about"
+  - link: "/about.html"
     link_text: About
   logo: ''
 - template: 1-column-text
@@ -25,17 +25,8 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Made with ❤︎ by <a href="https://github.com/noahwc" title="noahwc">noahwc</a>
-block: header-1
-navigation:
-- link: "/"
-  link_text: Steam Dream
-- link: "/blog"
-  link_text: Blog
-- link: "/gallery"
-  link_text: Gallery
-- link: "/about"
-  link_text: About
-logo: Steam Dream
+block: ''
+headline: ''
+content: ''
 
 ---
-Made with ❤︎ by [noahwc](https://github.com/noahwc "noahwc")
