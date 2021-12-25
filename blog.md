@@ -23,5 +23,8 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Made with ❤︎ by <a href="https://github.com/noahwc" title="noahwc">noahwc</a>
+menu:
+  main:
+    weight: 3
 
 ---
