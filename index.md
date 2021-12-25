@@ -34,12 +34,10 @@ page_sections:
   block: feature-1
   media_alignment: Left
   slug: swap
-  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-    class="light">the Blocks to create sites quickly</span>
-  content: Quickly assemble and create custom sites with 16 design blocks for seven
-    different sections.
+  headline: "<strong>Unique Ramp and Pipe System</strong>"
+  content: Players can send the ball off the playfield!
   media:
-    image: "/uploads/2018/06/21/blocks-split.png"
+    image: "/assets/2021/12/25/img_0011.jpg"
     alt_text: uBuild Blocks Mock-Up
 - template: content-feature
   block: feature-1
