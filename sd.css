@@ -34,7 +34,7 @@ p {
 }
 p {
   font-weight: 400;
-  color: #666;
+  color: #D8D3C0;
 }
 @media screen and (min-width: 700px) {
   h1 {
@@ -109,13 +109,13 @@ input {
   color: #E8E5DA;
 }
 input::-webkit-input-placeholder {
-  color: #666;
+  color: #D8D3C0;
 }
 input:-ms-input-placeholder {
-  color: #666;
+  color: #D8D3C0;
 }
 input::placeholder {
-  color: #666;
+  color: #D8D3C0;
 }
 input.inverted {
   border-bottom: 1px solid #3A3617;
@@ -162,7 +162,7 @@ input.inverted::placeholder {
   color: #e8e5da;
 }
 .block-header-1 .nav-item a:hover {
-  color: #666;
+  color: #D8D3C0;
 }
 .block-header-1 .nav-item.active a:hover {
   color: #FF8427;
@@ -206,7 +206,7 @@ input.inverted::placeholder {
   color: #e8e5da;
 }
 .block-header-2 .nav-item a:hover {
-  color: #666;
+  color: #D8D3C0;
 }
 .block-header-2 .nav-item.active a:hover {
   color: #FF8427;
@@ -475,7 +475,7 @@ input.inverted::placeholder {
 .block-footer-1 {
   font-size: 12.8px;
   font-size: 0.8rem;
-  color: #666;
+  color: #D8D3C0;
   text-align: center;
 }
 .block-footer-2 .columns {
@@ -653,7 +653,7 @@ input.inverted::placeholder {
 .block-media-1 figcaption {
   font-size: 11.2px;
   font-size: 0.7rem;
-  color: #666;
+  color: #D8D3C0;
   text-align: center;
   margin-top: 8px;
   margin-top: 0.5rem;
@@ -678,7 +678,7 @@ input.inverted::placeholder {
 .block-media-2 figcaption {
   font-size: 11.2px;
   font-size: 0.7rem;
-  color: #666;
+  color: #D8D3C0;
   text-align: center;
   margin-top: 8px;
   margin-top: 0.5rem;
