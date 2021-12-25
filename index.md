@@ -27,9 +27,9 @@ page_sections:
     url: "/blog"
     button_text: Read about the build process
   image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
+    image: "/assets/2021/12/25/steam-dream-1.jpg"
     alt_text: Product Shot
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  background_image: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
