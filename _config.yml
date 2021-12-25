@@ -3,7 +3,7 @@ title: Steam Dream
 author: Noah Clarke
 email: ''
 description: Steam Dream is a unique steampunk-inspired pinball machine.
-baseurl: "/sd-jekyll"
+baseurl: "/"
 url: ''
 defaults:
 - scope:
