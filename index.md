@@ -43,12 +43,10 @@ page_sections:
   block: feature-1
   media_alignment: Right
   slug: customize
-  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-    edits throughout your new site</span>
-  content: Each block comes with custom Front Matter that can be edited in Forestry
-    CMS.
+  headline: "<strong>Player Controlled Airship</strong>"
+  content: Players can manually control the start position of the ball.
   media:
-    image: "/uploads/2018/06/21/edit.gif"
+    image: "/assets/2021/12/25/controls-for-airship.jpg"
     alt_text: Customize Blocks
 - template: simple-footer
   block: footer-1
