@@ -35,6 +35,6 @@ navigation:
   link_text: Gallery
 - link: "/about"
   link_text: About
-logo: ''
+logo: Steam Dream
 
 ---
