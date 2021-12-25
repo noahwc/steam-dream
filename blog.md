@@ -19,9 +19,12 @@ page_sections:
   block: one-column-1
   headline: Blog
   slug: blog
-  content: Coming Soon
+  content: Coming soon...
 - template: simple-footer
   block: footer-1
   content: Made with ❤︎ by <a href="https://github.com/noahwc" title="noahwc">noahwc</a>
+block: ''
+headline: ''
+content: ''
 
 ---
