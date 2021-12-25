@@ -36,6 +36,12 @@ p {
   font-weight: 400;
   color: #D8D3C0;
 }
+a {
+    color: #7686A7;
+}
+a:visited{
+    color: #7776A6;
+}
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 3.5rem;
