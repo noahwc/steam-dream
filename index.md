@@ -29,7 +29,7 @@ page_sections:
   image:
     image: "/assets/2021/12/25/steam-dream-1.jpg"
     alt_text: Product Shot
-  background_image: "/assets/2021/12/25/steam-dream-1.jpg"
+  background_image: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
