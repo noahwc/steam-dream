@@ -10,8 +10,8 @@ page_sections:
     link_text: Steam Dream
   - link: "/blog"
     link_text: Blog
-  - link: "/blog"
-    link_text: Blog
+  - link: "/gallery"
+    link_text: Gallery
   - link: "/about"
     link_text: About
   logo: ''
@@ -19,13 +19,7 @@ page_sections:
   block: one-column-1
   headline: Blog
   slug: blog
-  content: {% raw %}<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>{% endraw %}
+  content: Coming Soon
 - template: simple-footer
   block: footer-1
   content: Made with ❤︎ by <a href="https://github.com/noahwc" title="noahwc">noahwc</a>
