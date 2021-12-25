@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Blog
-date: 2021-12-24 00:00:00 -0800
+date: 2021-12-24T00:00:00.000-08:00
 page_sections:
 - template: navigation-header
   block: header-1
@@ -23,6 +23,5 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Made with ❤︎ by <a href="https://github.com/noahwc" title="noahwc">noahwc</a>
-published: false
 
 ---
