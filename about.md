@@ -36,9 +36,6 @@ navigation:
 - link: "/about"
   link_text: About
 logo: Steam Dream
-menu:
-  main:
-    weight: 4
 
 ---
 Made with ❤︎ by [noahwc](https://github.com/noahwc "noahwc")
