@@ -38,3 +38,4 @@ navigation:
 logo: Steam Dream
 
 ---
+Made with ❤︎ by [noahwc](https://github.com/noahwc "noahwc")
