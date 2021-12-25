@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Blog
-date: '2021-12-24T00:00:00.000-08:00'
+date: 2021-12-24T00:00:00.000-08:00
 page_sections:
 - template: navigation-header
   block: header-1
@@ -10,30 +10,18 @@ page_sections:
     link_text: Steam Dream
   - link: "/blog"
     link_text: Blog
-  - link: "/gallery"
-    link_text: Gallery
+  - link: "/blog"
+    link_text: Blog
   - link: "/about"
     link_text: About
   logo: ''
 - template: 1-column-text
   block: one-column-1
-  headline: Gallery
-  slug: gallery
+  headline: Blog
+  slug: blog
   content: Coming soon...
-- template: ''
-  block: ''
-  navigation: ''
-  logo: ''
 - template: simple-footer
   block: footer-1
   content: Made with ❤︎ by <a href="https://github.com/noahwc" title="noahwc">noahwc</a>
-block: text-1
-headline: Blog
-content: ''
 
 ---
-{% raw %}
-
-<ul> {% for post in site.posts %} <li> <a href="{{ post.url }}">{{ post.title }}</a> </li> {% endfor %} </ul>
-
-{% endraw %}
