@@ -32,7 +32,6 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
-- "./default-page-template-1.md"
 - "./default-page-template.md"
 - 404.md
 - index.md
