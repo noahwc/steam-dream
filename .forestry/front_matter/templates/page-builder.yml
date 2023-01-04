@@ -34,5 +34,6 @@ fields:
 pages:
 - "./blog.md"
 - "./default-page-template.md"
+- "./gallery.md"
 - 404.md
 - index.md
