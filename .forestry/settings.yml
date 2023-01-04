@@ -4,9 +4,6 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: Jekyll Pages
-  create: all
 - type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
@@ -24,8 +21,8 @@ sections:
 - type: document
   path: _config.yml
   label: Config
-upload_dir: assets
-public_path: "/assets"
+upload_dir: uploads
+public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:/:month:/:day:/:filename:"

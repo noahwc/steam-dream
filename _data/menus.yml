@@ -1,18 +1,6 @@
 ---
 main:
-- identifier: about
-  weight: 4
-  url: "/about"
-  title: About
-- identifier: blog
-  weight: 3
-  url: "/blog"
-  title: Blog
-- identifier: gallery
-  weight: 2
-  url: "/gallery"
-  title: Gallery
 - identifier: home
   url: "/"
   weight: 1
-  title: Steam Dream
+  title: Home
