@@ -32,7 +32,6 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
-- "./default-page-template.md"
 - "./gallery.md"
 - 404.md
 - index.md
