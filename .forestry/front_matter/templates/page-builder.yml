@@ -33,4 +33,5 @@ fields:
   - 4-column-footer
 pages:
 - 404.md
+- gallery.md
 - index.md
