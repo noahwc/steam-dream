@@ -20,6 +20,18 @@ page_sections:
   cta:
     url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
     button_text: Import
+- template: navigation-header
+  block: header-1
+  navigation:
+  - link: "/"
+    link_text: Home
+  - link: "/blog"
+    link_text: Blog
+  - link: "/gallery"
+    link_text: Gallery
+  - link: "/about"
+    link_text: About
+  logo: ''
 - template: hero-banner-w-image
   block: hero-2
   slug: features
