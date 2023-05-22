@@ -1,10 +1,24 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useSanityClient } from 'astro-sanity';
+
+export async function getStaticPaths() {
+return await useSanityClient().fetch(`*[_type == "post"]`);
+}
+
+
+const posts  = await getStaticPaths()
 ---
+
+<script define:vars={{ posts }}>console.log(posts)</script>
 
 <BaseLayout title="Welcome to Astro.">
 	<main>
-Blog
+<h1>Blog</h1>
+
+<ul>
+	{posts.map((post:any) => {return <li ><a href={`/blog/${post.slug.current}`}>{post.title}</a></li>})}
+</ul>
 
 	</main>
 </BaseLayout>

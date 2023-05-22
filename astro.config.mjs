@@ -11,7 +11,7 @@ export default defineConfig({
   integrations: [
     tailwind(),
     sanity({
-      projectId: "steam-dream",
+      projectId: "evu2rsa8",
       dataset: "production",
       apiVersion: "2023-02-25",
       useCdn: true,
