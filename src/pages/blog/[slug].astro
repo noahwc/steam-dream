@@ -2,11 +2,7 @@
 import SanityRichText from "../../components/SanityRichText.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { sanityClient } from "sanity:client";
-
-interface BlogPost {
-  slug: any;
-  title: string;
-}
+import { DateTime } from "luxon";
 
 export async function getStaticPaths() {
   const posts = await sanityClient.fetch(`*[_type == "post"]`);
@@ -21,9 +17,18 @@ export async function getStaticPaths() {
   });
 }
 
-const { title, body } = Astro.props;
+console.log(Astro.props);
+
+const { title, body, _updatedAt } = Astro.props;
+
+const publishDate = DateTime.fromISO(_updatedAt);
 ---
 
 <BaseLayout title={title}>
-  <main><h1>{title}</h1><SanityRichText portableText={body} /></main>
+  <main class="prose px-12 py-6">
+    <h1 class="h1">{title}</h1><p>
+      Published {publishDate.monthLong}
+      {" "}{publishDate.day}, {publishDate.year}
+    </p><SanityRichText portableText={body} />
+  </main>
 </BaseLayout>
