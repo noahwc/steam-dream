@@ -1,0 +1,13 @@
+---
+import { PortableText as PortableTextInternal } from "astro-portabletext";
+import SanityRichTextImage from "./SanityRichTextImageBlock.astro";
+const { portableText } = Astro.props;
+
+const components = {
+  type: {
+    image: SanityRichTextImage,
+  },
+};
+---
+
+<PortableTextInternal value={portableText} components={components} />

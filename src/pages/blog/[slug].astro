@@ -1,7 +1,29 @@
 ---
+import SanityRichText from "../../components/SanityRichText.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { sanityClient } from "sanity:client";
+
+interface BlogPost {
+  slug: any;
+  title: string;
+}
+
+export async function getStaticPaths() {
+  const posts = await sanityClient.fetch(`*[_type == "post"]`);
+
+  return posts.map((post: any) => {
+    return {
+      params: {
+        slug: post.slug?.current || "",
+      },
+      props: { ...post },
+    };
+  });
+}
+
+const { title, body } = Astro.props;
 ---
 
-<BaseLayout title="">
-  <main></main>
+<BaseLayout title={title}>
+  <main><h1>{title}</h1><SanityRichText portableText={body} /></main>
 </BaseLayout>
