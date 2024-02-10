@@ -9,11 +9,7 @@ export async function getStaticPaths() {
 const posts = await getStaticPaths();
 ---
 
-<script define:vars={{ posts }}>
-console.log(posts);
-</script>
-
-<BaseLayout title="Welcome to Astro.">
+<BaseLayout title="Blog Posts">
   <main class="prose px-12 py-6">
     <h1>Blog</h1>
     <ul>

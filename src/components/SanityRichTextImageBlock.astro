@@ -5,9 +5,19 @@ const { asset, alt } = Astro.props.node;
 
 const url = urlForImage(asset).url();
 const webpUrl = urlForImage(asset).format("webp").url();
+
+const image = document.querySelector("img.gallery_image");
+const dialog = document.querySelector("sl-dialog") as Element & {
+  show: () => void;
+};
+
+image?.addEventListener("click", () => dialog?.show());
 ---
 
 <picture>
   <source srcset={webpUrl} type="image/webp" />
-  <img class="responsive__img" src={url} alt={alt} />
+  <img class="responsive__img gallery_image" src={url} alt={alt} />
+  <sl-dialog>
+    <img class="responsive__img" src={url} alt={alt} />
+  </sl-dialog>
 </picture>

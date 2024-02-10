@@ -3,6 +3,7 @@ import SanityRichText from "../../components/SanityRichText.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { sanityClient } from "sanity:client";
 import { DateTime } from "luxon";
+import lightGallery from "lightgallery";
 
 export async function getStaticPaths() {
   const posts = await sanityClient.fetch(`*[_type == "post"]`);
@@ -16,8 +17,6 @@ export async function getStaticPaths() {
     };
   });
 }
-
-console.log(Astro.props);
 
 const { title, body, _updatedAt } = Astro.props;
 
