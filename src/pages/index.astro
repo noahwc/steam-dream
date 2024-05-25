@@ -1,49 +1,49 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import hero from "../assets/steam-dream-hero.jpg"
-import supporting1 from "../assets/steam-dream-2.jpg"
-import supporting2 from "../assets/steam-dream-3.jpg"
+import BaseLayout from "../layouts/BaseLayout.astro";
+import hero from "../assets/steam-dream-hero.jpg";
+import supporting1 from "../assets/steam-dream-2.jpg";
+import supporting2 from "../assets/steam-dream-3.jpg";
 ---
 
 <BaseLayout title="Steam Dream">
-	<main>
-		<div class="hero min-h-screen bg-base-200">
-			<div class="hero-content flex-col lg:flex-row-reverse">
-			  <img src={hero} class="max-w-2xl" />
-			  <div>
-				<h1 class="text-5xl font-bold">Steam Dream
-				</h1>
-				<p class="py-6">Steam Dream is a handmade steampunk-inspired pinball machine. With numerous unique elements and gameplay features, Steam Dream exists on the cutting edge of pinball design.</p>
-				<button class="btn btn-primary"><a href="/blog">Read about the build</a></button>
-			  </div>
-			</div>
-		  </div>
+  <main>
+    <div class="hero min-h-screen bg-base-200">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img src={hero?.src} class="max-w-2xl" />
+        <div>
+          <h1 class="text-5xl font-bold">Steam Dream</h1>
+          <p class="py-6">
+            Steam Dream is a handmade steampunk-inspired pinball machine. With
+            numerous unique elements and gameplay features, Steam Dream exists
+            on the cutting edge of pinball design.
+          </p>
+          <button class="btn btn-primary"
+            ><a href="/blog">Read about the build</a></button
+          >
+        </div>
+      </div>
+    </div>
 
-		  <div class="hero min-h-screen bg-base-200">
-			<div class="hero-content flex-col lg:flex-row">
-			  <img src={supporting1} class="max-w-2xl" />
-			  <div>
-				<h1 class="text-3xl font-bold">Unique Ramp and Pipe System
-				</h1>
-				<p class="py-6">Players can send the ball off the playfield!
-				</p>
-			  </div>
-			</div>
-		  </div>
+    <div class="hero min-h-screen bg-base-200">
+      <div class="hero-content flex-col lg:flex-row">
+        <img src={supporting1?.src} class="max-w-2xl" />
+        <div>
+          <h1 class="text-3xl font-bold">Unique Ramp and Pipe System</h1>
+          <p class="py-6">Players can send the ball off the playfield!</p>
+        </div>
+      </div>
+    </div>
 
-		  <div class="hero min-h-screen bg-base-200">
-			<div class="hero-content flex-col lg:flex-row-reverse">
-			  <img src={supporting2} class="max-w-2xl" />
-			  <div>
-				<h1 class="text-3xl font-bold">Player Controlled Airship
-
-				</h1>
-				<p class="py-6">Players can manually control the start position of the ball.
-
-				</p>
-			  </div>
-			</div>
-		  </div>
-
-	</main>
+    <div class="hero min-h-screen bg-base-200">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img src={supporting2?.src} class="max-w-2xl" />
+        <div>
+          <h1 class="text-3xl font-bold">Player Controlled Airship</h1>
+          <p class="py-6">
+            Players can manually control the start position of the ball.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
 </BaseLayout>

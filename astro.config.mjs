@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
-import { sanityIntegration as sanity } from "@sanity/astro";
+import sanity from "@sanity/astro";
 
 export default defineConfig({
   integrations: [
@@ -9,7 +9,7 @@ export default defineConfig({
       projectId: "evu2rsa8",
       dataset: "production",
       apiVersion: "2023-02-25",
-      useCdn: true,
+      useCdn: false,
     }),
   ],
 });

@@ -1,29 +1,27 @@
 ---
+import SanityRichTextImageBlock from "../../components/SanityRichTextImageBlock.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { sanityClient } from "sanity:client";
 
 export async function getStaticPaths() {
-  return await sanityClient.fetch(`*[_type == "post"]`);
+  return await sanityClient.fetch(`*[_type == "galleryImage"]`);
 }
 
-const posts = await getStaticPaths();
+const images = await getStaticPaths();
+
+console.log(images);
+console.log(images[0].mainImage.asset);
 ---
 
 <BaseLayout title="Gallery">
   <main class="prose px-12 py-6">
     <h1>Gallery</h1>
-    <ul>
+    <div class="container mx-auto gap-4 flex-wrap">
       {
-        posts.map((post: any) => {
-          return (
-            <li>
-              <a class="link link-hover" href={`/blog/${post.slug.current}`}>
-                {post.title}
-              </a>
-            </li>
-          );
+        images.map((image: any) => {
+          return <SanityRichTextImageBlock asset={image.mainImage} />;
         })
       }
-    </ul>
+    </div>
   </main>
 </BaseLayout>
