@@ -3,6 +3,8 @@ import tailwind from "@astrojs/tailwind";
 import sanity from "@sanity/astro";
 
 export default defineConfig({
+  site: "https://www.steamdreampinball.com",
+  base: "/",
   integrations: [
     tailwind(),
     sanity({
