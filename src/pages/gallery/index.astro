@@ -8,18 +8,20 @@ export async function getStaticPaths() {
 }
 
 const images = await getStaticPaths();
-
-console.log(images);
-console.log(images[0].mainImage.asset);
 ---
 
 <BaseLayout title="Gallery">
   <main class="prose px-12 py-6">
     <h1>Gallery</h1>
-    <div class="container mx-auto gap-4 flex-wrap">
+    <div class="container gap-4 flex flex-wrap">
       {
         images.map((image: any) => {
-          return <SanityRichTextImageBlock asset={image.mainImage} />;
+          return (
+            <SanityRichTextImageBlock
+              class="max-w-sm max-h-64"
+              asset={image.mainImage}
+            />
+          );
         })
       }
     </div>

@@ -29,7 +29,11 @@ const webpUrl = urlForImage(asset).format("webp").url();
 
 <picture>
   <source srcset={webpUrl} type="image/webp" />
-  <img class="responsive__img gallery_image" src={url} alt={alt} />
+  <img
+    class="responsive__img m-0 gallery_image max-w-sm max-h-64"
+    src={url}
+    alt={alt}
+  />
   <sl-dialog label={alt} style="--width: 60%; ">
     <img class="responsive__img" src={url} alt={alt} />
   </sl-dialog>
